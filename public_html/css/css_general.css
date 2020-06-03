@@ -20,14 +20,14 @@
     src: url('polices/Dustismo.ttf') format("truetype");
 }
 body {
-    font-size: large;
+    font-size: 80%;
 }
 
 header, section {
- width: auto;
+    width: auto;
 }
 header img {
- width: 100%; /* Bannière sur toute la largeur */
+    width: 100%; /* Bannière sur toute la largeur */
 }
 nav input {
     display: none;
@@ -59,4 +59,16 @@ h1 {
     color: #1E444F; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
+}
+h3 { text-align: center;
+     font-size: xx-large;
+}
+
+p { text-align: center;
+    font-size: xx-large;
+}
+
+h2 { color : #D30C27;
+     text-align: center; 
+     font-size: xx-large;
 }
