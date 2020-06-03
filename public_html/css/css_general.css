@@ -1,0 +1,58 @@
+/* 
+    Created on : 3 juin 2020, 10:53:02
+    Author     : BEJAOUI, BRISCAS, BOUTELLIS, CALABUIG
+    Email : BikinToulon@gmail.com
+*/
+
+* {
+    font-family: 'Dustismo'; /* Police texte */
+    box-sizing: border-box; /* Les tailles de conteneurs incluent bordures et 
+                               remplissages */
+    margin: 0; /* Mise à  0 des marges externes */
+    padding: 0; /* Mise à 0 des marges internes */
+    text-decoration: none; /* Suppression de la mise en forme habituelle des liens 
+                             (soulignement) */
+}
+
+/* DÃ©finition de la police "Dustimo" */
+@font-face{ 
+    font-family: "Dustismo";
+    src: url('polices/Dustismo.ttf') format("truetype");
+}
+body {
+    font-size: large;
+
+}
+
+header, section {
+ width: auto;
+}
+header img {
+ width: 100%; /* Bannière sur toute la largeur */
+
+}
+nav input {
+    display: none;
+}
+
+nav ul {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les Ã©lÃ©ments sont mis cÃ´te Ã  cÃ´te */
+    justify-content: space-between; /* Les Ã©lÃ©ments sont rÃ©partis Ã©quitablement */
+    background-color: #1E444F; /* Couleur du fond */
+}
+nav ul li {
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les Ã©lÃ©ments portÃ©s sont centrÃ©s Ã  l'horizontal */
+    list-style-type: none; /* Cette liste n'a pas de puce */
+    font-size: x-large; /* Le texte est grossi en XL */
+    flex-grow: 1; /* L'espace occupÃ© est Ã©largie */
+}
+
+nav ul li a {
+    padding: 10px; /* Marge intÃ©rieure */
+    color: #E3CDD9; /* Couleur du texte */
+}
+nav ul li:hover {
+    background-color: #C22323; /* Couleur du fond au passage de la souris */
+}
