@@ -60,3 +60,25 @@ h1 {
     text-align: center; /* Le texte est centrÃ© */
     font-size: xx-large; /* Le texte est grossi en XXL */
 }
+
+h4 {
+    color: #1E444F; /* Couleur du texte */
+    text-align: center; /* Le texte est centrÃ© */
+    font-size: x-large; /* Le texte est grossi en XXL */
+}
+
+#principal {
+    margin-top: 10px; /* Marge supérieure */
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-direction: row; /* Les éléments sont mis côte à côte */
+    text-align: justify; /* Alignement du texte : justifié */
+}
+#principal article {
+    flex: 1; /* Écriture raccourcie : 
+                flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal 
+                (le + et le - à la fois) */
+}
+#principal article p {
+    padding-top: 16px; /* Marge intérieure supérieure */
+}
+
