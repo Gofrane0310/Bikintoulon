@@ -21,7 +21,6 @@
 }
 body {
     font-size: large;
-
 }
 
 header, section {
@@ -29,7 +28,6 @@ header, section {
 }
 header img {
  width: 100%; /* Bannière sur toute la largeur */
-
 }
 nav input {
     display: none;
@@ -55,4 +53,10 @@ nav ul li a {
 }
 nav ul li:hover {
     background-color: #C22323; /* Couleur du fond au passage de la souris */
+}
+
+h1 {
+    color: #1E444F; /* Couleur du texte */
+    text-align: center; /* Le texte est centrÃ© */
+    font-size: xx-large; /* Le texte est grossi en XXL */
 }
