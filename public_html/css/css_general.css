@@ -21,7 +21,6 @@
 }
 body {
     font-size: large;
-
 }
 
 header, section {
@@ -29,7 +28,6 @@ header, section {
 }
 header img {
  width: 100%; /* Bannière sur toute la largeur */
-
 }
 nav input {
     display: none;
