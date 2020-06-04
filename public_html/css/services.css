@@ -1,4 +1,4 @@
-img.velo {
+#sécurité img {
     display: block;
     margin-left: auto;
     margin-right: auto 
@@ -9,3 +9,6 @@ img.cadran {
     margin-right: auto 
 }
 
+#rappel p {
+    padding-top: 16px; /* Marge intérieure supérieure */
+}
