@@ -101,14 +101,16 @@ h4 {
     text-align: center; /* Le texte est centrÃ© */
     font-size: x-large; /* Le texte est grossi en XXL */
 }
-h2{
+
+h2 {
     color : #D30C27;
-       text-align: center;
-       fon-size : large;
+    text-align: center;
+    fon-size : large;
 }
-h3{ color: #1E444F;
-        texte-align: center;
-    
+
+h3 { 
+    color: #1E444F;
+    texte-align: center;
 }
 
 #principal {
@@ -116,26 +118,28 @@ h3{ color: #1E444F;
     display: flex; /* Ce conteneur est "flexible" */
     text-align: center; /* Alignement du texte : justifié */
 }
+
 #principal article {
     flex: 1; /* Écriture raccourcie : 
                 flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal 
                 (le + et le - à la fois) */
 }
+
 #principal article p {
     padding-top: 16px; /* Marge intérieure supérieure */
 }
 
-p{
+p {
     text-align: center;
     font-size: x-large;
 }
-h5{
+
+h5 {
     color:red;
     text-align: center;
     font-size: x-large;
-    
-    
 }
+
 h6 {
     color: black; /* Couleur du texte */
     font-size: large; /* Le texte est grossi en XXL */
@@ -143,6 +147,22 @@ h6 {
 iframe.video {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto; 
 }
 
+#carte img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carte p {
+    text-align: center;
+    font-size: large;
+}
+
+#carte h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+}
