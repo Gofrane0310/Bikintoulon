@@ -8,5 +8,9 @@ img.tarif {
 section img {
  width: 70%; /* Bannière sur toute la largeur */
  background-color: white; /* Extension artificielle noire */
- padding-top: 100px; /* du bas de l'image sur 15 pixels */
+ padding-top: 50px; /* du bas de l'image sur 15 pixels */
+}
+h3{
+    color:#1E444F;
+        text-align: center;
 }
