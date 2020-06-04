@@ -101,6 +101,11 @@ h4 {
     text-align: center; /* Le texte est centrÃ© */
     font-size: x-large; /* Le texte est grossi en XXL */
 }
+h2{
+    color : #D30C27;
+       text-align: center;
+       fon-size : large;
+}
 
 #principal {
     margin-top: 10px; /* Marge supérieure */
