@@ -105,8 +105,7 @@ h4 {
 #principal {
     margin-top: 10px; /* Marge supérieure */
     display: flex; /* Ce conteneur est "flexible" */
-    flex-direction: row; /* Les éléments sont mis côte à côte */
-    text-align: justify; /* Alignement du texte : justifié */
+    text-align: center; /* Alignement du texte : justifié */
 }
 #principal article {
     flex: 1; /* Écriture raccourcie : 
@@ -117,3 +116,7 @@ h4 {
     padding-top: 16px; /* Marge intérieure supérieure */
 }
 
+p{
+    text-align: center;
+    font-size: x-large;
+}
