@@ -120,3 +120,7 @@ p{
     text-align: center;
     font-size: x-large;
 }
+.c{
+   margin-left: auto;
+   margin-right: auto;
+}

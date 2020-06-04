@@ -1,0 +1,35 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 juin 2020, 16:11:58
+    Author     : Calabuig Nicolas
+*/
+
+#video {
+ display: flex;
+}
+#video img, #video article p, #video iframe {
+ padding-top: 16px;
+
+}
+#video img {
+ float: left;
+}
+#video article {
+ width: 50%;
+ padding-right: 10px;
+}
+#video article p span {
+ color: red;
+ font-weight: bold;
+}
+#video article p {
+ text-align: center;
+}
+#video article p {
+ padding-right: 10px;
+ text-align: justify;
+}
