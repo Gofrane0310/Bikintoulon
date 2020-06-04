@@ -73,3 +73,46 @@ input[type="email"]:valid ~ .input-validation::before {
     color: green;
 }
 
+#logo {
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /* Les éléments sont placés sur plusieurs lignes */
+    margin-bottom: 45px; /* Marge basse (correspond à la hauteur du footer + 10px) */
+}
+
+h1 {
+    color: #ff6811; /* Couleur du texte */
+    text-align: center; /* Le texte est centré */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+#logo h1 {
+    width: 100%; /* Le titre occupe toute la largeur */ 
+    margin-bottom: 10px; /* Marge basse */
+}
+
+#logo article {
+    flex: 1; /* flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal (le + et le - à la fois) */
+    height: 256px; /* Hauteur */
+    border: transparent thin solid; /* Bordure transparente */
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+}
+
+#gauche:hover, #milieu:hover, #droite:hover {
+    border: black thin solid; /* Bordure au passage de la souris */
+    border-radius: 10px; /* Bords arrondis au passage de la souris */
+    background-color: #ededed; /* Fond au passage de la souris */
+}
+
+#gauche {
+    background: transparent url('../images/logofb.jpg') no-repeat center 10px; /* Fond */
+}
+
+#milieu {
+    background: transparent url('../images/logoinsta.jpg') no-repeat center 0; /* Fond */
+}
+
+#droite {
+    background: transparent url('../images/logoinsta.jpg') no-repeat center 10px; /* Fond */
+}
+
