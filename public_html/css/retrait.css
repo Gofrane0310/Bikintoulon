@@ -1,0 +1,25 @@
+/* 
+    Created on : 3 juin 2020, 22:12:23
+    Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
+*/
+
+#carte {
+    padding-top: 10px;
+    line-height: 0;
+}
+
+#carte h1 {
+    text-align: left;
+    line-height: normal;
+}
+
+#carte img:nth-child(2) {
+    float: left;
+    margin-right: 10px;
+}
+
+#carte img:last-child {
+    margin-top: 10px;
+}
+

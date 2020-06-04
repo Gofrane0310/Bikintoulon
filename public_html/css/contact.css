@@ -1,0 +1,75 @@
+/* 
+    Created on : 3 juin 2020, 17:52:46
+    Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
+*/
+#contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+#contact form fieldset {
+    padding: 10px;
+}
+
+#coordo legend {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+#coordo label {
+    margin-right: 10px;
+}
+
+#coordo input {
+    flex: 1;
+}
+
+#coordo fieldset {
+    width: fit-content;
+    margin: auto;
+}
+
+#coordo div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#coordo input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#controles {
+    margin-top: 10px;
+}
+
+#controles input {
+    padding: 10px;
+}
+
+#controles input:first-child {
+    margin-right: 10px;
+}
+
+input:valid, :not(input[type="submit"]) {
+    color: green;
+}
+input:invalid {
+    color: red;
+}
+
+#coordo div.input-validation {
+    margin: 0;
+}
+
+input[type="text"]:valid ~ .input-validation::before,
+input[type="email"]:valid ~ .input-validation::before {
+    content: "✔";
+    margin-left: 5px;
+    color: green;
+}
+
