@@ -101,6 +101,15 @@ h4 {
     text-align: center; /* Le texte est centrÃ© */
     font-size: x-large; /* Le texte est grossi en XXL */
 }
+h2{
+    color : #D30C27;
+       text-align: center;
+       fon-size : large;
+}
+h3{ color: #1E444F;
+        texte-align: center;
+    
+}
 
 #principal {
     margin-top: 10px; /* Marge supérieure */
@@ -120,3 +129,20 @@ p{
     text-align: center;
     font-size: x-large;
 }
+h5{
+    color:red;
+    text-align: center;
+    font-size: x-large;
+    
+    
+}
+h6 {
+    color: black; /* Couleur du texte */
+    font-size: large; /* Le texte est grossi en XXL */
+}
+iframe.video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
