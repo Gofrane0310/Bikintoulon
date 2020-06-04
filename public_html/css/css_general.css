@@ -56,7 +56,7 @@ nav ul li a {
 nav ul li:hover {
     background-color: #C22323; /* Couleur du fond au passage de la souris */
 }
-}
+
 
 header, section {
  width: auto;
