@@ -120,7 +120,14 @@ p{
     text-align: center;
     font-size: x-large;
 }
-.c{
-   margin-left: auto;
-   margin-right: auto;
+h5{
+    color:red;
+    font-family: "colibri", serif;
+    font-size: x-large;
+    
+    
+}
+h6 {
+    color: black; /* Couleur du texte */
+    font-size: large; /* Le texte est grossi en XXL */
 }
