@@ -4,16 +4,10 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 4 juin 2020, 12:02:18
+    Created on : 4 juin 2020, 15:18:07
     Author     : Calabuig Nicolas
 */
 
-.carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 1rem 0;
-}
-.carousel-item {
-    flex: 1 0 450px;
-    margin-left: 1rem;
+map {
+  display: inline;
 }
