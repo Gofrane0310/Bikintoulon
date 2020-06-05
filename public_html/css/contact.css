@@ -3,6 +3,12 @@
     Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
     Email : BikinToulon@gmail.com
 */
+
+#contact h1 {
+    margin-top: 10px;
+    text-align: left;
+}
+
 #contact form {
     display: flex;
     flex-wrap: wrap;
@@ -21,16 +27,11 @@
 }
 
 #coordo label {
-    margin-right: 10px;   
+    margin-right: 10px;
 }
 
-#coordo input {
+#coordo input, #coordo select {
     flex: 1;
-}
-
-#coordo fieldset {
-    width: fit-content;
-    margin: auto;
 }
 
 #coordo div {
@@ -41,6 +42,15 @@
 
 #coordo input[type="checkbox"] {
     margin-right: 5px;
+}
+
+#coordo #marques label {
+    text-transform: capitalize;
+}
+
+#coordo fieldset {
+    width: fit-content;
+    margin: auto;
 }
 
 #controles {
@@ -80,7 +90,7 @@ input[type="email"]:valid ~ .input-validation::before {
 }
 
 h1 {
-    color: #ff6811; /* Couleur du texte */
+    color: #1E444F; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
     font-size: xx-large; /* Le texte est grossi en XXL */
 }
@@ -111,16 +121,3 @@ h1 {
 #droite {
     background: transparent no-repeat center 10px; /* Fond */
 }
-
-#logo gauche img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-#logo droite img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
