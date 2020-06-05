@@ -70,16 +70,9 @@
                         <input type="number" name="nb_poids" id="nb_poids" min="0" max="400" value="0">
                     </p>
                     
-                    <div id="controles"><input type="submit" id="btn_calculer" name="sub_calculer" value="Calculer"> <input type="reset" name="rst_annuler" value="Effacer les données"></div>
+                    <div id="controles"><input type="button" id="btn_calculer" name="sub_calculer" value="Calculer"> <input type="reset" name="rst_annuler" value="Effacer les données"></div>
                 </fieldset>      
             </form>
-            <script>
-                function calculCal()
-                {
-                    var cal = ((document.getElementById("form_simulateur").elements["nb_poids"].value * document.getElementById("form_simulateur").elements["nb_effort"].value*3,5)/200)*document.getElementById("form_simulateur").elements["nb_temps"].value;
-                    alert(cal);
-                }
-            </script>
         </section>
         
         <nav>
