@@ -4,22 +4,20 @@
     Email : BikinToulon@gmail.com
 */
 
-#carte {
-    padding-top: 10px;
-    line-height: 0;
+#carte img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#carte h1 {
-    text-align: left;
-    line-height: normal;
+#carte p {
+    text-align: center;
+    font-size: large;
 }
 
-#carte img:nth-child(2) {
-    float: left;
-    margin-right: 10px;
-}
-
-#carte img:last-child {
-    margin-top: 10px;
+#carte h2 {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
 }
 

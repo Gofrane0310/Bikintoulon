@@ -98,21 +98,29 @@ h1 {
     justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
 }
 
-#gauche:hover, #milieu:hover, #droite:hover {
+#gauche:hover, #droite:hover {
     border: black thin solid; /* Bordure au passage de la souris */
     border-radius: 10px; /* Bords arrondis au passage de la souris */
     background-color: #ededed; /* Fond au passage de la souris */
 }
 
 #gauche {
-    background: transparent url('../images/logofb.jpg') no-repeat center 10px; /* Fond */
-}
-
-#milieu {
-    background: transparent url('../images/logoinsta.jpg') no-repeat center 0; /* Fond */
+    background: transparent no-repeat center 10px; /* Fond */
 }
 
 #droite {
-    background: transparent url('../images/logoinsta.jpg') no-repeat center 10px; /* Fond */
+    background: transparent no-repeat center 10px; /* Fond */
+}
+
+#logo gauche img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+#logo droite img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 

@@ -150,25 +150,3 @@ iframe.video {
     margin-right: auto; 
 }
 
-#carte img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#carte p {
-    text-align: center;
-    font-size: large;
-}
-
-#carte h2 {
-    text-align: center;
-    font-size: xx-large;
-    color: red;
-}
-
-jumbotron img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
