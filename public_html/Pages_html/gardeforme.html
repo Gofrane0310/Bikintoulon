@@ -1,19 +1,21 @@
 <!DOCTYPE html>
+
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+    Page web créé dans le cadre du projet de web Dev le 02/06/2020
+    Auteur : BOUTELLIS, CALABUIG, BRISCAS, BEJAOUI
+    Email : BikinToulon@gmail.com
 -->
+
 <html>
     <head>
         <link rel="icon" href="../Favicon_logo.png">
         <link href="../CSS/css_general.css" rel="stylesheet" type="text/css"/>
-      
+        <link href="../css/gardeforme.css" rel="stylesheet" type="text/css"/>
         <title>BikinToulon, le chemin vous semblera moins long - Nous contacter</title>
         <meta charset="UTF-8">
         <meta name="description" content="Découvrez la Côte d'Azur, comme vous ne l'avez jamais vu, au guidon de nos meilleurs vélos, à prix malins et en toute sécurité ! ">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+        <script src="../js/gardeforme.js" type="text/javascript"></script>
     </head>
     <body>
         <header>
@@ -30,5 +32,60 @@ and open the template in the editor.
                 </ul>
             </nav>
         </header>
-       
+        
+        <section id='formulaire'>
+            <h1>Simulateur de nombres de calories dépensés pour les utilisateurs de BikinToulon :</h1>
+            <form id="form_simulateur" name="form_simulateur">
+                <fieldset id="recueilinfos">
+                    <legend>Vos informations : </legend>
+                    <p>
+                        <label for="nb_temps">Temps parcouru (en min) :</label>
+                        <input type="number" name="nb_temps" id="nb_temps" min="0" max="99999" value="0">
+                    </p>
+                    <p>
+                        <label for="nb_effort">Votre effort (entre 0 et 20) :</label>
+                        <input type="number" name="nb_effort" id="nb_effort" min="0" max="20" value="0">
+                    </p>
+                    <p>
+                        Etes-vous :                    
+                    </p>
+                    <div>
+                        <input type="radio" id="une_femme" name="genre" value="une_femme">
+                        <label for="une_femme">Une femme</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="un_homme" name="genre" value="un_homme">
+                        <label for="un_homme">Un homme</label>
+                    </div>
+                    <p>
+                        <label for="nb_age">Votre âge :</label>
+                        <input type="number" name="nb_age" id="nb_age" min="0" max="99" value="0">
+                    </p>                                        
+                    <p>
+                        <label for="nb_taille">Votre taille (en cm) :</label>
+                        <input type="number" name="nb_taille" id="nb_taille" min="0" max="300" value="0">
+                    </p>
+                    <p>
+                        <label for="nb_poids">Votre poids (en kg) :</label>
+                        <input type="number" name="nb_poids" id="nb_poids" min="0" max="400" value="0">
+                    </p>
+                    
+                    <div id="controles"><input type="submit" id="btn_calculer" name="sub_calculer" value="Calculer"> <input type="reset" name="rst_annuler" value="Effacer les données"></div>
+                </fieldset>      
+            </form>
+            <script>
+                function calculCal()
+                {
+                    var cal = ((document.getElementById("form_simulateur").elements["nb_poids"].value * document.getElementById("form_simulateur").elements["nb_effort"].value*3,5)/200)*document.getElementById("form_simulateur").elements["nb_temps"].value;
+                    alert(cal);
+                }
+            </script>
+        </section>
+        
+        <nav>
+            <ul>
+                <li><a href="html/contact.html">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </body>
 </html>
