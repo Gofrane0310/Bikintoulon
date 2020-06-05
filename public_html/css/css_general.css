@@ -39,7 +39,7 @@ nav ul {
     display: flex; /* Ce conteneur est "flexible" */
     flex-direction: row; /* Les Ã©lÃ©ments sont mis cÃ´te Ã  cÃ´te */
     justify-content: space-between; /* Les Ã©lÃ©ments sont rÃ©partis Ã©quitablement */
-    background-color: white; /* Couleur du fond */
+    background-color: #8D8D8D;/* Couleur du fond */
 }
 nav ul li {
     display: flex; /* Ce conteneur est "flexible" */
@@ -51,16 +51,27 @@ nav ul li {
 
 nav ul li a {
     padding: 10px; /* Marge intÃ©rieure */
-    color: blue; /* Couleur du texte */
+    color: white; /* Couleur du texte */
 }
 nav ul li:hover {
-    background-color: blue; /* Couleur du fond au passage de la souris */
+    background-color: #35ABD8; /* Couleur du fond au passage de la souris */
+}
+
+
+header, section {
+ width: auto;
+}
+header img {
+ width: 100%; /* Bannière sur toute la largeur */
+}
+nav input {
+    display: none;
 }
 
 h1 {
     color: #1E444F; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
-    font-size: xxx-large; /* Le texte est grossi en XXL */
+    font-size: xx-large; /* Le texte est grossi en XXL */
 }
 
 h4 {
