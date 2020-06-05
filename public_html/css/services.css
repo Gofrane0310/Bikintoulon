@@ -1,14 +1,19 @@
-#sécurité img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-img.cadran {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px; 
+rappel.id{
+    display : flex;
 }
 
-#rappel p {
-    padding-top: 16px; /* Marge intérieure supérieure */
+.cadran{
+    border: 3px ridge #7E7D7D; 
 }
+
+.centrer {text-align:center}
+
+ .tab{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 70% ;
+padding-top:10px;
+padding-bottom:10px;
+border: 3px solid #FFFFFF; 
+text-align: center;background: #FFFFFF; }

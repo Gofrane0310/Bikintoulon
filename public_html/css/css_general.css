@@ -93,7 +93,7 @@ nav ul li:hover {
 h1 {
     color: #1E444F; /* Couleur du texte */
     text-align: center; /* Le texte est centré */
-    font-size: xx-large; /* Le texte est grossi en XXL */
+    font-size: xxx-large; /* Le texte est grossi en XXL */
 }
 
 h4 {
@@ -105,12 +105,14 @@ h4 {
 h2 {
     color : #D30C27;
     text-align: center;
-    fon-size : large;
+    fon-size : xxx-large;
 }
 
 h3 { 
-    color: #1E444F;
-    texte-align: center;
+    text-align: left;
+    color: black;
+    font-size: xx-large
+   ;
 }
 
 #principal {
@@ -135,9 +137,9 @@ p {
 }
 
 h5 {
-    color:red;
+    color: #C66E6E;
     text-align: center;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 h6 {
