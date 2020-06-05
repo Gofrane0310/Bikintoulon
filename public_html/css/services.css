@@ -1,14 +1,6 @@
-#sécurité img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-img.cadran {
-    display: block;
-    margin-left: 100px;
-    margin-right: 100px; 
+
+.cadran{
+    border: 3px ridge #7E7D7D; 
 }
 
-#rappel p {
-    padding-top: 16px; /* Marge intérieure supérieure */
-}
+.centrer {text-align:center}
