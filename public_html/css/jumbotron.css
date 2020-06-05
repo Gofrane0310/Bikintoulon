@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 .jumbotron {
- background: #C1BFBF;
+ background: #E1E1E1;
  border-radius:25px;
  border-color: black;
  border-style: hidden;
@@ -20,7 +20,7 @@ and open the template in the editor.
  margin-bottom: 10px;
 }
 .button {
- background:gray;
+ background:#8D8D8D;
  border-style: none;
  border-radius:25px;
  margin-left: 10px;
