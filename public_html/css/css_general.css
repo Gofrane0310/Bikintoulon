@@ -39,7 +39,7 @@ nav ul {
     display: flex; /* Ce conteneur est "flexible" */
     flex-direction: row; /* Les Ã©lÃ©ments sont mis cÃ´te Ã  cÃ´te */
     justify-content: space-between; /* Les Ã©lÃ©ments sont rÃ©partis Ã©quitablement */
-    background-color: #1E444F; /* Couleur du fond */
+    background-color: white; /* Couleur du fond */
 }
 nav ul li {
     display: flex; /* Ce conteneur est "flexible" */
@@ -51,43 +51,10 @@ nav ul li {
 
 nav ul li a {
     padding: 10px; /* Marge intÃ©rieure */
-    color: #E3CDD9; /* Couleur du texte */
+    color: blue; /* Couleur du texte */
 }
 nav ul li:hover {
-    background-color: #C22323; /* Couleur du fond au passage de la souris */
-}
-
-
-header, section {
- width: auto;
-}
-header img {
- width: 100%; /* Bannière sur toute la largeur */
-}
-nav input {
-    display: none;
-}
-
-nav ul {
-    display: flex; /* Ce conteneur est "flexible" */
-    flex-direction: row; /* Les elements sont mis cote Ã  cote */
-    justify-content: space-between; /* Les elements sont repartis equitablement */
-    background-color: #1E444F; /* Couleur du fond */
-}
-nav ul li {
-    display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés a  l'horizontal */
-    list-style-type: none; /* Cette liste n'a pas de puce */
-    font-size: x-large; /* Le texte est grossi en XL */
-    flex-grow: 1; /* L'espace occupé est elargie */
-}
-
-nav ul li a {
-    padding: 10px; /* Marge intérieure */
-    color: #E3CDD9; /* Couleur du texte */
-}
-nav ul li:hover {
-    background-color: #C22323; /* Couleur du fond au passage de la souris */
+    background-color: blue; /* Couleur du fond au passage de la souris */
 }
 
 h1 {
