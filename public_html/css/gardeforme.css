@@ -1,0 +1,93 @@
+/* 
+    Created on : 5 juin 2020, 17:00:09
+    Author     : BEJAOUI
+*/
+
+p,
+label {
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input {
+    margin: .4rem;
+}
+
+#formulaire h1 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#formulaire form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+#formulaire form fieldset {
+    padding: 50px;
+}
+
+#recueilinfos legend {
+    padding: 0 5px;
+    font-weight: bold;
+}
+
+#recueilinfos label {
+    margin-right: 10px;
+}
+
+#recueilinfos input, #coordo select {
+    flex: 1;
+}
+
+#recueilinfos div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+#recueilinfos input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#recueilinfos #marques label {
+    text-transform: capitalize;
+}
+
+#recueilinfos fieldset {
+    width: fit-content;
+    margin: auto;
+}
+
+#controles {
+    margin-top: 10px;
+}
+
+#controles input {
+    padding: 10px;
+}
+
+#controles input:first-child {
+    margin-right: 10px;
+}
+
+input:valid, :not(input[type="submit"]) {
+    color: green;
+}
+input:invalid {
+    color: red;
+}
+
+#recueilinfos div.input-validation {
+    margin: 0;
+}
+
+input[type="text"]:valid ~ .input-validation::before,
+input[type="email"]:valid ~ .input-validation::before {
+    content: "✔";
+    margin-left: 5px;
+    color: green;
+}
+
