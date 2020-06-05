@@ -4,11 +4,6 @@
     Email : BikinToulon@gmail.com
 */
 
-#contact h1 {
-    margin-top: 10px;
-    text-align: left;
-}
-
 #contact form {
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +13,7 @@
 }
 
 #contact form fieldset {
-    padding: 10px;
+    padding: 50px;
 }
 
 #coordo legend {

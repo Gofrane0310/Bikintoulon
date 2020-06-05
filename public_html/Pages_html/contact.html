@@ -26,21 +26,22 @@
                     <li><a href="retrait.html">Nos points de retrait</a></li>
                     <li><a href="services.html">Nos services</a></li>
                     <li><a href="abonnements.html">Nos abonnements</a></li>
+                    <li><a href="gardeforme.html">Gardez la forme !</a></li>
                     <li><a href="application.html">Notre application</a></li>
                     <li><a href="contact.html">Nous contacter</a></li>
                 </ul>
             </nav>
         </header>
         <section id="contact">
-            <form name="form_contact" action="http://gil83.fr/nolark/testforms.php" method="POST">
+            <form id="form_contact" name="form_contact">
                 <fieldset id="coordo">
                     <legend>N'hésitez pas à nous contacter </legend>
                     <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="35" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_email">Votre e-mail :</label> <input type="email" name="i_email" id="i_email" size="35" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
-                    <div><label for="area_message">Votre message :</label><br><textarea name="area_message" id="area_message" cols="35" rows="10"></textarea></div>    
-                </fieldset>
-                <div id="controles"><input type="button" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre message"> <input type="reset" name="rst_annuler" value="Effacer les réponses"></div>
+                    <div><label for="area_message">Votre message :</label><br><textarea name="area_message" id="area_message" cols="35" rows="10"></textarea></div> 
+                    <div id="controles"><input type="submit" id="btn_envoyer" name="sub_envoyer" value="Envoyer votre message"> <input type="reset" name="rst_annuler" value="Effacer les réponses"></div>
+                </fieldset>              
             </form> 
         </section>
 
