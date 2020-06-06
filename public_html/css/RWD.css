@@ -70,7 +70,7 @@ nav input:checked ~ span:nth-child(4) {
 nav input:checked ~ span:nth-child(3) {
  opacity: 0;
 }
-nav input:checked ~ ul {
+nav input[type=checkbox]:checked + ul{
  transform: none;
 }
 }
