@@ -7,18 +7,15 @@ window.addEventListener("load", function() {
     window.document.querySelector("#btn_calculer").addEventListener("click", calculCal);
 });
 
-window.addEventListener("load", function() {
-    window.document.querySelector("rst_annuler").addEventListener("click", efface());
-});
-
-
-
 function calories (nb_cal) {
     let elH1 = window.document.querySelector('#formulaire');
     elH1 = window.document.createElement('p');
     elH1.id = 'formulaire';
+
+   /* elH1.innerHTML = 'Une balade de ' + document.getElementById("form_simulateur").elements["nb_temps"].value + ' minutes vous a fait perdre ' + nb_cal + ' Kcal !';*/
+    elH1.appendChild(window.document.createTextNode('Une balade de ' + document.getElementById("form_simulateur").elements["nb_temps"].value + ' minutes vous a fait perdre ' + nb_cal + ' Kcal !'));
     window.document.querySelector('#recueilinfos').appendChild(elH1);
-    elH1.innerHTML = 'Une balade de ' + document.getElementById("form_simulateur").elements["nb_temps"].value + ' minutes vous a fait perdre ' + nb_cal + ' Kcal !';
+
 }
 
 function calculCal() {
