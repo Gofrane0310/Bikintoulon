@@ -31,7 +31,7 @@ form {
 	right: 50px;
 	white-space: nowrap;
 }
-input {
+/*input {
 	position: absolute;
 }
 .keys {
@@ -102,4 +102,4 @@ label:after {
 	left: 100%;
 	border-top-right-radius: 50%;
 	border-bottom-right-radius: 50%;
-}
+}*/
