@@ -72,7 +72,21 @@
     margin-right: 10px;
 }
 
+input:valid, :not(input[type="submit"]) {
+    color: green;
+}
+input:invalid {
+    color: red;
+}
 
+#coordo div.input-validation {
+    margin: 0;
+}
 
-
-
+input[type="text"]:valid ~ .input-validation::before,
+input[type="email"]:valid ~ .input-validation::before,
+input[type="password"]:valid ~ .input-validation::before {
+    content: "✔";
+    margin-left: 5px;
+    color: green;
+}
