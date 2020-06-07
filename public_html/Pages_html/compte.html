@@ -1,9 +1,11 @@
 <!DOCTYPE html>
+
 <!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+    Page web créée dans le cadre du projet de web Dev le 02/06/2020
+    Auteurs : BOUTELLIS, CALABUIG, BRISCAS, BEJAOUI
+    Email : BikinToulon@gmail.com
 -->
+
 <html>
     <head>
         <link rel="icon" href="../Favicon_logo.png">
@@ -21,9 +23,10 @@ and open the template in the editor.
             <img src="../images/accueil/bantoulon5.jpg" alt="BikinToulon : le chemin vous semblera moins long. Photo d'un femme faisant du vélo sur un pont.">
             <nav>
                 <input type="checkbox">
- <span></span>
- <span></span>
- <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                
                 <ul>
                     <li><a href="../index.html">Présentation</a></li>
                     <li><a href="retrait.html">Nos points de retrait</a></li>
@@ -34,8 +37,10 @@ and open the template in the editor.
                     <li><a href="contact.html">Nous contacter</a></li>
                     <li><a href="compte.html">Mon compte</a></li>
                 </ul>
+                
             </nav>
         </header>
+        
         <section id="connexion">
             <form id="form_connexion" name="form_connexion">
                 <fieldset id="coordo">
@@ -47,9 +52,11 @@ and open the template in the editor.
                 </fieldset>              
             </form> 
         </section>
+        
         <section id="compte">
             <form id="form_compte" name="form_compte">
                 <fieldset id="coordo">
+                    
                     <legend>Inscription </legend>
                     <div><label for="i_nom">Votre nom :</label> <input type="text" name="i_nom" id="i_nom" size="20" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
                     <div><label for="i_prenom">Votre prénom :</label> <input type="text" name="i_prenom" id="i_prenom" size="20" pattern="^[a-zA-ZáàâäãåçéèêëíìîïñóòôöõúùûüýÿæœÁÀÂÄÃÅÇÉÈÊËÍÌÎÏÑÓÒÔÖÕÚÙÛÜÝŸÆŒ\s\-]+$" required><div class="input-validation"></div></div>
@@ -57,17 +64,21 @@ and open the template in the editor.
                     <div><label for="i_email">Confirmation e-mail :</label> <input type="email" name="i_email" id="i_email" size="35" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
                     <div><label for="pin">Mot de passe :</label> <input id="pin" type="password"  size="15" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
                     <div><label for="pin">Confirmation mot de passe :</label> <input id="pin" type="password"  size="15" pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><div class="input-validation"></div></div>
-                    <div><p>Me tenir informé(e) grace à la Newsletter : 
+                    
+                    <div><p>Me tenir informé(e) grâce à la Newsletter :</p> 
                         <div>
                         <input type="radio" id="oui" name="choix" value="oui">
                         <label for="une_femme"> Oui</label>
-                    </div>
-                    <div>
+                        </div>
+                        
+                        <div>
                         <input type="radio" id="non" name="choix" value="non">
                         <label for="un_homme"> Non</label>
+                        </div>
+                    </div>
                     
-
-                        <div id="controles"><input type="submit" id="btn_envoyer" name="sub_inscrition" value="S'inscrire"> <input type="reset" name="rst_annuler" value="Effacer les réponses"></div>
+                    <div id="controles"><input type="submit" id="btn_envoyer" name="sub_inscrition" value="S'inscrire"> <input type="reset" name="rst_annuler" value="Effacer les réponses"></div>
+                
                 </fieldset>              
             </form> 
         </section>
@@ -79,5 +90,6 @@ and open the template in the editor.
             </ul>
         </nav>
         </footer>
-        </body>
-    </html>
+        
+    </body>
+</html>
