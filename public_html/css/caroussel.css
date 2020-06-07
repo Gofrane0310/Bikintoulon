@@ -1,14 +1,15 @@
 /* 
     Created on : 4 juin 2020, 12:02:18
-    Author     : Calabuig Nicolas
+    Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
 */
 
 .carousel-items {
-    display: flex;
-    overflow-x: scroll;
-    padding: 1rem 0;
+    display: flex; /* Ce conteneur est "flexible" */
+    overflow-x: scroll; /* ascenseur horizontal */
+    padding: 1rem 0; /* ecart vertical : 1em | horizontal: 0 */
 }
 .carousel-item {
-    flex: 1 0 450px;
-    margin-left: 1rem;
+    flex: 1 0 450px; /* Trois valeurs : flex-grow | flex-shrink | flex-basis */
+    margin-left: 1rem; /* taille marge à gauche */
 }

@@ -6,87 +6,89 @@
 */
 
 #connexion form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    margin-top: 10px;
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /*disposition des éléments avec un retour automatique */
+    justify-content: space-around;/* Les éléments sont répartis équitablement aux ectrémités on a la moitié de l'espace appliqué entre chaque élément */
+    padding-bottom: 50px; /* Marge inférieure */
+    margin-top: 10px; /* Marge supérieur*/
+
 }
 
 #connexion form fieldset {
-    padding: 50px;
+    padding: 50px; /* Marge intérieure */
+
 }
 #compte form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    margin-top: 10px;
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /*disposition des éléments avec un retour automatique */
+    justify-content: space-around; /* Les éléments sont répartis équitablement aux ectrémités on a la moitié de l'espace appliqué entre chaque élément */
+    padding-bottom: 50px; /* Marge inférieure */
+    margin-top: 10px; /* Marge supérieur*/
 }
 
 #compte form fieldset {
-    padding: 50px;
+    padding: 50px; /* Marge intérieure */
 }
 
 #coordo legend {
-    padding: 0 5px;
-    font-weight: bold;
+    padding: 0 5px; /* ecart vertical : 0| horizontal: 5 pixels */
+    font-weight: bold; /*texte en gras */
 }
 
 #coordo label {
-    margin-right: 10px;
+    margin-right: 10px; /* Marge à droite */
 }
 
 #coordo input, #coordo select {
-    flex: 1;
+    flex: 1; /*  Chaque élément occupe l'espace idéal */
 }
 
 #coordo div {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: space-between; /* les éléments séparé par le même espace  */
+    margin: 10px; /* taille de la marge */
 }
 
 #coordo input[type="checkbox"] {
-    margin-right: 5px;
+    margin-right: 5px; /* Marge à droite */
 }
 
 #coordo #marques label {
-    text-transform: capitalize;
+    text-transform: capitalize; /* première lettre de chaque mot en majuscule */
 }
 
 #coordo fieldset {
     width: fit-content;
-    margin: auto;
+    margin: auto; /* Marge à droite */
 }
 
 #controles {
-    margin-top: 10px;
+    margin-top: 10px; /* Marge à supérieur */
 }
 
 #controles input {
-    padding: 10px;
+    padding: 10px; /* Marge intérieure */
 }
 
 #controles input:first-child {
-    margin-right: 10px;
+    margin-right: 10px; /* Marge à droite */
 }
 
 input:valid, :not(input[type="submit"]) {
-    color: green;
+    color: green; /* couleur verte si ok */
 }
 input:invalid {
-    color: red;
+    color: red; /* couleur rouge si mauvais format */
 }
 
 #coordo div.input-validation {
-    margin: 0;
+    margin: 0; /* Marge */
 }
 
 input[type="text"]:valid ~ .input-validation::before,
 input[type="email"]:valid ~ .input-validation::before,
 input[type="password"]:valid ~ .input-validation::before {
     content: "✔";
-    margin-left: 5px;
-    color: green;
+    margin-left: 5px; /* Marge gauche */
+    color: green; /* couleur verte si ok */
 }

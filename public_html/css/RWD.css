@@ -1,14 +1,11 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : 5 juin 2020, 17:12:43
-    Author     : Calabuig Nicolas
+    Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
 */
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:576px) { /* l'adaptation sur écran se fait sur: */
     body {
  font-size: large;
 }
@@ -16,15 +13,15 @@ header, section {
  width: auto;
 }
 header img {
- width: 100%; /* BanniÃ¨re sur toute la largeur */
- background-color: black; /* Extension artificielle noire */
- padding-bottom: 15px; /* du bas de l'image sur 15 pixels */
+ width: 100%; 
+ background-color: black; 
+ padding-bottom: 15px;
 }
 nav {
  position: relative;
  top: 7px;
  left: 7px;
- z-index: 1; /* La barre de navigation devra Ãªtre au premier plan */
+ z-index: 1;
 }
 nav ul {
  display: flex;
@@ -56,7 +53,7 @@ nav span {
  position: relative;
  background: black;
  border-radius: 3px;
- z-index: 1; /* En dessous de l'input dÃ©fini avant */
+ z-index: 1; 
 }
 nav input:checked ~ span {
  background: white;

@@ -5,108 +5,108 @@
 */
 
 #contact form {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-bottom: 50px;
-    margin-top: 10px;
+    display: flex; /* Ce conteneur est "flexible" */
+    flex-wrap: wrap; /*disposition des éléments avec un retour automatique */
+    justify-content: space-around; /* Les éléments sont répartis équitablement aux ectrémités on a la moitié de l'espace appliqué entre chaque élément */
+    padding-bottom: 50px; /* hauteur de la marge inférieure */
+    margin-top: 10px; /* Marge supérieur*/
 }
 
 #contact form fieldset {
-    padding: 50px;
+    padding: 50px; /* Marge intérieure */
 }
 
 #coordo legend {
-    padding: 0 5px;
-    font-weight: bold;
+    padding: 0 5px; /* ecart vertical : 0| horizontal: 5 pixels */
+    font-weight: bold; /*texte en gras */
 }
 
 #coordo label {
-    margin-right: 10px;
+    margin-right: 10px;  /* Marge à droite */
 }
 
 #coordo input, #coordo select {
-    flex: 1;
+    flex: 1; /*  Chaque élément occupe l'espace idéal */
 }
 
 #coordo div {
-    display: flex;
-    justify-content: space-between;
-    margin: 10px;
+    display: flex; /* Ce conteneur est "flexible" */
+    justify-content: space-between; /* éléments séparé par le même espace  */
+    margin: 10px; /* Marge */
 }
 
 #coordo input[type="checkbox"] {
-    margin-right: 5px;
+    margin-right: 5px; /* Marge à droite */
 }
 
 #coordo #marques label {
-    text-transform: capitalize;
+    text-transform: capitalize; /* première lettre de chaque mot en majuscule */
 }
 
 #coordo fieldset {
     width: fit-content;
-    margin: auto;
+    margin: auto; /* Marge auto */
 }
 
 #controles {
-    margin-top: 10px;
+    margin-top: 10px; /* Marge à supérieur */
 }
 
 #controles input {
-    padding: 10px;
+    padding: 10px; /* Marge intérieure */
 }
 
 #controles input:first-child {
-    margin-right: 10px;
+    margin-right: 10px; /* Marge à droite */
 }
 
 input:valid, :not(input[type="submit"]) {
-    color: green;
+    color: green; /* couleur verte si ok */
 }
 input:invalid {
-    color: red;
+    color: red; /* couleur rouge si mauvais format */
 }
 
 #coordo div.input-validation {
-    margin: 0;
+    margin: 0;  /* Marge */
 }
 
 input[type="text"]:valid ~ .input-validation::before,
 input[type="email"]:valid ~ .input-validation::before {
     content: "✔";
-    margin-left: 5px;
-    color: green;
+    margin-left: 5px; /* Marge gauche */
+    color: green; /* couleur verte si ok */
 }
 
 #logo {
     display: flex; /* Ce conteneur est "flexible" */
-    flex-wrap: wrap; /* Les éléments sont placés sur plusieurs lignes */
-    margin-bottom: 45px; /* Marge basse (correspond à la hauteur du footer + 10px) */
+    flex-wrap: wrap; /*disposition des éléments avec un retour automatique */
+    margin-bottom: 45px; /* marge inférieur */
 }
 
 h1 {
-    color: #1E444F; /* Couleur du texte */
-    text-align: center; /* Le texte est centré */
-    font-size: xx-large; /* Le texte est grossi en XXL */
+    color: #1E444F; /* Couleur du texte : bleu */
+    text-align: center; /* texte centré */
+    font-size: xx-large; /* Le texte est en XXL */
 }
 
 #logo h1 {
     width: 100%; /* Le titre occupe toute la largeur */ 
-    margin-bottom: 10px; /* Marge basse */
+    margin-bottom: 10px; /* Marge inferoeur */
 }
 
 #logo article {
-    flex: 1; /* flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal (le + et le - à la fois) */
+    flex: 1; /*  Chaque élément occupe l'espace idéal */
     height: 256px; /* Hauteur */
     border: transparent thin solid; /* Bordure transparente */
     display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les éléments portés sont centrés à l'horizontal */
+    justify-content: center; /* centrés à l'horizontalement */
 }
 
 #gauche:hover, #droite:hover {
     border: black thin solid; /* Bordure au passage de la souris */
     border-radius: 10px; /* Bords arrondis au passage de la souris */
-    background-color: #ededed; /* Fond au passage de la souris */
+    background-color: #ededed; /* Fond au passage de la souris : gris clair*/
 }
 
 #gauche {

@@ -1,23 +1,23 @@
 /* 
     Created on : 4 juin 2020, 10:07:53
-    Author     : Calabuig Nicolas
+  Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
 */
 
 .jumbotron {
- background: #E1E1E1;
- border-radius:25px;
- border-color: black;
- border-style: hidden;
- border-width: 3px;
- margin-top: 10px;
- margin-right: 10px;
- margin-left: 10px;
- margin-bottom: 10px;
+ background: #E1E1E1; /* couleur fond */
+ border-radius: 10px 100px / 120px; /* coins arrondis */
+ border-color: black; /* couleur bords : noirs */
+ border-style: hidden; /* pas de bordures */
+ margin-top: 10px; /* Marge à supérieur */
+ margin-right: 10px; /* Marge à droite */
+ margin-left: 10px; /* Marge à gauche */
+ margin-bottom: 10px; /* Marge inférieur */
 }
 .button {
- background:#8D8D8D;
- border-style: none;
- border-radius:25px;
- margin-left: 10px;
+ background:#8D8D8D; /* couleur fond */
+ border-style: none; /* pas de bordures */
+ border-radius:10% / 50%; /* coins arrondis */
+ margin-left: 10px; /* Marge à gauche */
  
 }

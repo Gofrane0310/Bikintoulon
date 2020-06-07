@@ -1,6 +1,7 @@
 /* 
     Created on : 4 juin 2020, 12:02:18
-    Author     : Calabuig Nicolas
+  Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
 */
 
 img.tarif {
@@ -10,13 +11,13 @@ img.tarif {
 }
 
 section img {
- width: 70%; /* Bannière sur toute la largeur */
+ width: 10%; /* Bannière sur 70% */
  background-color: white; /* Extension artificielle noire */
  padding-top: 50px; /* du bas de l'image sur 15 pixels */
 }
 h3{
     color:#1E444F;
-        text-align: center;
+    text-align: center;
 }
 table{
     border-collapse: collapse;

@@ -5,19 +5,19 @@
 */
 
 #carte img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: block; /* affichage en bloc */
+    margin-left: auto; /* Marge à gauche */
+    margin-right: auto; /* Marge à droite */
 }
 
 #carte p {
-    text-align: center;
-    font-size: large;
+    text-align: center; /*texte centré */
+    font-size: large; /* Le texte est en L */
 }
 
 #carte h2 {
-    text-align: center;
-    font-size: xx-large;
-    color: red;
+    text-align: center; /*texte centré */
+    font-size: xx-large; /* Le texte est en XXL */
+    color: #D30C27; /* Couleur du texte : rouge */
 }
 

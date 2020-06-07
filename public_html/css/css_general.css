@@ -14,85 +14,57 @@
                              (soulignement) */
 }
 
-/* DÃ©finition de la police "Dustimo" */
+/* Définition de la police "Dustimo" */
 @font-face{ 
     font-family: "Dustismo";
     src: url('polices/Dustismo.ttf') format("truetype");
 }
 body {
-    font-size: large;
-
+    font-size: large; /* Le texte est en L */
 }
 
 header, section {
-    width: auto;
+    width: auto; /* taille definit automatiquement */
 }
 header img {
  width: 100%; /* Bannière sur toute la largeur */
 
 }
 nav input {
-    display: none;
+    display: none; /* élément non affiché */
 }
 
 nav ul {
     display: flex; /* Ce conteneur est "flexible" */
-    flex-direction: row; /* Les Ã©lÃ©ments sont mis cÃ´te Ã  cÃ´te */
-    justify-content: space-between; /* Les Ã©lÃ©ments sont rÃ©partis Ã©quitablement */
-    background-color: #8D8D8D;/* Couleur du fond */
+    flex-direction: row; /* les éléments cote à cote */
+    justify-content: space-between; /* les éléments séparé par le même espace  */
+    background-color: #8D8D8D /* fond menu gris */
 }
 nav ul li {
     display: flex; /* Ce conteneur est "flexible" */
-    justify-content: center; /* Les Ã©lÃ©ments portÃ©s sont centrÃ©s Ã  l'horizontal */
-    list-style-type: none; /* Cette liste n'a pas de puce */
-    font-size: x-large; /* Le texte est grossi en XL */
-    flex-grow: 1; /* L'espace occupÃ© est Ã©largie */
+    justify-content: center; /*éléments centrés */
+    list-style-type: none; /*  pas de puce */
+    font-size: x-large; /* Le texte en XL */
+    flex-grow: 1; /* L'espace occupé est élargie */
 }
 
 nav ul li a {
-    padding: 10px; /* Marge intÃ©rieure */
-    color: white; /* Couleur du texte */
-    text-align: center;
+    padding: 10px; /* Marge intérieure */
+    color: white; /* Couleur du texte menu */
+    text-align: center; /* texte centré */
 }
 nav ul li:hover {
-    background-color: #35ABD8; /* Couleur du fond au passage de la souris */
-}
-
-h1 {
-    color: #1E444F; /* Couleur du texte */
-    text-align: center; /* Le texte est centré */
-    font-size: xx-large; /* Le texte est grossi en XXL */
-}
-
-h4 {
-    color: #1E444F; /* Couleur du texte */
-    text-align: center; /* Le texte est centrÃ© */
-    font-size: x-large; /* Le texte est grossi en XXL */
-}
-
-h2 {
-    color : #D30C27;
-    text-align: center;
-    fon-size : xxx-large;
-}
-
-h3 { 
-    text-align: left;
-    color: black;
-    font-size: xx-large
-   ;
+    background-color: #35ABD8; /* fond bleu au passage de la souris */
 }
 
 #principal {
     margin-top: 10px; /* Marge supérieure */
     display: flex; /* Ce conteneur est "flexible" */
-    text-align: center; /* Alignement du texte : justifié */
+    text-align: center; /*texte centré */
 }
 
 #principal article {
-    flex: 1; /* Écriture raccourcie : 
-                flex-grow: 1 et flex-shrink:1 = Chaque élément occupe l'espace idéal 
-                (le + et le - à la fois) */
+    flex: 1; /*  Chaque élément occupe l'espace idéal */
 }
 
 #principal article p {
@@ -100,29 +72,51 @@ h3 {
 }
 
 p {
-    text-align: center;
-    font-size: x-large;
+    text-align: center; /*texte centré */
+    font-size: x-large;/* Le texte est  en XL */
+    
+}
+h1 {
+    color: #1E444F; /* Couleur du texte : bleu */
+    text-align: center; /* texte centré */
+    font-size: xx-large; /* Le texte en XXL */
+}
+h2 {
+    color : #D30C27; /* Couleur du texte : rouge */
+    text-align: center;/*texte centré */
+    font-size : xx-large; /* Le texte est grossi en XXL */
+}
+h3 { 
+    text-align: left; /*texte à gauche */
+    color: black; /* Couleur du texte : noir */
+    font-size: xx-large; /* Le texte est grossi en XXL */
+}
+
+
+h4 {
+    color: #1E444F; /* Couleur du texte : bleu */
+    text-align: center; /*texte centré */
+    font-size: x-large; /* Le texte est grossi en XXL */
 }
 
 h5 {
-    color: #C66E6E;
-    text-align: center;
-    font-size: xx-large;
+    color: #C66E6E; /* Couleur du texte : rose */
+    text-align: center; /*texte centré */
+    font-size: xx-large; /* Le texte est  en XXL */
 }
 
 h6 {
-    color: black; /* Couleur du texte */
-    font-size: large; /* Le texte est grossi en XXL */
+    color: black; /* Couleur du texte : noir*/
+    font-size: large; /* Le texte est en L */
 }
 
 iframe.video {
     display: block;
-    margin-left: auto;
-    margin-right: auto; 
+    margin-left: auto;  /*video centrée */
+    margin-right: auto;  /*video centrée */
 }
 img.logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+    display: block; /* affichage en bloc */
+    margin-left: auto;  /*image centrée */
+    margin-right: auto;  /*image centrée */
 }
-

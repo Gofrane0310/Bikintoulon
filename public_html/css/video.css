@@ -1,35 +1,33 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
+
 /* 
     Created on : 4 juin 2020, 16:11:58
-    Author     : Calabuig Nicolas
+  Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
 */
 
+
 #video {
- display: flex;
+ display: flex; /* Ce conteneur est "flexible" */
 }
 #video img, #video article p, #video iframe {
- padding-top: 16px;
+ padding-top: 16px; /* hauteur de la marge superieur */
 
 }
 #video img {
- float: left;
+ float: left; /* élément placé à gauche */
 }
 #video article {
- width: 50%;
- padding-right: 10px;
+ width: 50%; /* taille definit sur 50% de l'écran' */
+ padding-right: 10px; /* hauteur de la marge à droite */
 }
 #video article p span {
- color: red;
- font-weight: bold;
+ color: red; /* couleur rouge */
+ font-weight: bold; /* texte en gras */
 }
 #video article p {
- text-align: center;
+ text-align: center; /*texte centré */
 }
 #video article p {
- padding-right: 10px;
- text-align: justify;
+ padding-right: 10px; /* hauteur de la marge à droite */
+ text-align: justify; /* alignement horizontal justifié */
 }

@@ -1,23 +1,29 @@
+/* 
+    Created on : 5 juin 2020, 14:22:08
+    Author     : BEJAOUI, BOUTELLIS, CALABUIG, BRISCAS
+    Email : BikinToulon@gmail.com
+*/
+
 rappel.id{
-    display : flex;
+    display : flex; /* Ce conteneur est "flexible" */
 }
 
 .cadran{
-    border: 3px ridge #7E7D7D; 
+    border: 3px ridge #7E7D7D; /* bordure de 3pixels + effet 3D + gris  */
 }
 
 .centrer {
-    text-align: center;
+    text-align: center; /*texte centré */
 }
 
  .tab{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70% ;
-    padding-top:10px;
-    padding-bottom:10px;
-    border: 3px solid #FFFFFF; 
-    text-align: center;
-    background: #FFFFFF; 
+    display: block; /* affichage en bloc */
+    margin-left: auto; /* Marge à gauche */
+    margin-right: auto; /* Marge à droite */
+    width: 70% ; /* taille definit sur 70% de l'écran' */
+    padding-top:10px; /* hauteur de la marge superieur */
+    padding-bottom:10px;/* hauteur de la marge inférieure */
+    border: 3px solid #FFFFFF; /* bordure de 3pixels + trait plein + blanc  */
+    text-align: center; /*texte centré */
+    background: #FFFFFF; /* Couleur du fond : blanc */
 }
