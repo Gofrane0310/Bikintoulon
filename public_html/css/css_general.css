@@ -52,6 +52,7 @@ nav ul li {
 nav ul li a {
     padding: 10px; /* Marge intÃ©rieure */
     color: white; /* Couleur du texte */
+    text-align: center;
 }
 nav ul li:hover {
     background-color: #35ABD8; /* Couleur du fond au passage de la souris */

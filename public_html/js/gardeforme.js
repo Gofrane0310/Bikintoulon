@@ -15,7 +15,6 @@ function calories (nb_cal) {
    /* elH1.innerHTML = 'Une balade de ' + document.getElementById("form_simulateur").elements["nb_temps"].value + ' minutes vous a fait perdre ' + nb_cal + ' Kcal !';*/
     elH1.appendChild(window.document.createTextNode('Une balade de ' + document.getElementById("form_simulateur").elements["nb_temps"].value + ' minutes vous a fait perdre ' + nb_cal + ' Kcal !'));
     window.document.querySelector('#recueilinfos').appendChild(elH1);
-
 }
 
 function calculCal() {
