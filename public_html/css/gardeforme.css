@@ -4,8 +4,7 @@
     Email : BikinToulon@gmail.com
 */
 
-p,
-label {
+p,label {
     font: 1rem 'Fira Sans', sans-serif; /* police */
 }
 
@@ -37,6 +36,7 @@ input {
 
 #recueilinfos label {
     margin-right: 10px; /* Marge à droite */
+}
 
 #recueilinfos input, #coordo select {
     flex: 1; /*  Chaque élément occupe l'espace idéal */
