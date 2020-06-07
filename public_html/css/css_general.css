@@ -57,17 +57,6 @@ nav ul li:hover {
     background-color: #35ABD8; /* Couleur du fond au passage de la souris */
 }
 
-
-header, section {
- width: auto;
-}
-header img {
- width: 100%; /* Bannière sur toute la largeur */
-}
-nav input {
-    display: none;
-}
-
 h1 {
     color: #1E444F; /* Couleur du texte */
     text-align: center; /* Le texte est centré */

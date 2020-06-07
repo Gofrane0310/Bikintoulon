@@ -40,7 +40,7 @@ nav ul {
 nav ul li {
  display: list-item;
  padding: 10px 0;
- width: 100%;
+ width: auto;
  }
 nav input {
  display: block;
@@ -103,4 +103,34 @@ nav input[type=checkbox]:checked + ul{
     footer {
         display: none;
     }
+    div img{
+       max-width: 50%;
+       
+    }
+    h5 {
+    color: #C66E6E;
+    text-align: center;
+    font-size: x-large;
+}
+h3 { 
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+div l img{
+       max-width: 50%;
+       
+    }
+    #coordo input, #coordo select {
+    flex: 1;
+    font-size:xx-small;
+}
+.carousel-items {
+    overflow-x: scroll;
+    padding: 1rem 0;
+}
+.carousel-item {
+    flex: 1 0 450px;
+    margin-left: 1rem;
+}
 }
